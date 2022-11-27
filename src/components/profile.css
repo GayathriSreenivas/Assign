@@ -1,0 +1,131 @@
+.main{
+    display:flex;
+    margin-bottom:3vw;
+}
+.first1{
+    width:500px;
+}
+.first{
+    width :600px;
+    height : 750px;
+    border-radius :3.5vw 0vw 0vw 3.5vw ;
+    background-color: rgb(199, 197, 195);
+    
+}
+
+.one{
+    color:black;
+    font-family:Roboto ;
+    font-size:5em;
+    text-decoration:underline;
+    padding:20px;
+    margin-top:2vw;
+}
+b{
+    font-size:1.3em;
+}
+.two{
+    color:rgb(71, 70, 70);
+    font-family:Roboto ;
+    font-size:15px;
+    padding-left:25px;
+}
+.third,.five,.third1,.eleventh,.thirteen,.fifteen{
+    color:black;
+    font-family:Roboto;
+    font-size:20px;
+    padding-top:30px;
+    padding-left:20px;
+}
+.fourth,.sixth,.tenth,.twelevth,.fourteen,.sixteen{
+    color:rgb(114, 111, 111);
+    padding-left:23px;
+    padding-top:15px;
+    font-family:Roboto;
+}
+.seventh{
+    display:flex;
+    font-family:Roboto;
+}
+.button{
+    color:blueviolet;
+    background-color:rgb(199, 197, 195);
+}
+.eight{
+    font-family:Roboto;
+    font-size:50px;
+    padding-top: 20px;
+    padding-left: 60px;
+}
+
+.pro1{
+    background-color: rgb(199, 197, 195) ;
+    font-family: Roboto;
+}
+.pro2{
+    background-color: rgb(199, 197, 195);
+    font-family:Roboto;
+}
+.but1:hover{
+    cursor: pointer;
+    background-color: rgb(70, 71, 71);
+}
+.but1{
+    width:300px;
+    height:40px;
+    border-radius:10px;
+    background-color:blueviolet;
+    color:aliceblue;
+    font-size:20px;
+    font-family: Roboto;
+}
+.but2{
+    width:300px;
+    height:40px;
+    border-radius:10px;
+    background-color:blueviolet;
+    color:aliceblue;
+    font-size:20px;
+    font-family: Roboto;
+
+}
+.but2:hover{
+    cursor: pointer;
+    background-color:brown;
+}
+.nine{
+    padding-top:20px;
+    padding-left:100px;
+}
+span{
+    color:blueviolet;
+}
+
+.profile{
+    padding-left :20px;
+    padding-top:15px;
+}
+
+input{
+    width:350px;
+    height:23px;
+}
+.second{
+    border-radius :0vw 3.5vw 3.5vw 0vw;
+    width:300px;
+    height:750px;
+    text-align: center;
+    background-image:linear-gradient(to bottom,rgb(102, 3, 160),rgb(201, 180, 240))
+}
+.image{
+    margin-top:3vw;
+    height:10vw;
+    border-radius: 50%;
+}
+.second2{
+    width :500px;
+}
+.first,.second{
+    
+    margin-top: 40px;
+}

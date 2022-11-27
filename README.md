@@ -1,0 +1,1 @@
+# MERN stack sample application based on React JS as frontend and Express JS , Mongodb as backend.

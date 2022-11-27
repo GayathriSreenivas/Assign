@@ -1,0 +1,114 @@
+.main{
+    display:flex;
+}
+.first1{
+    width:500px;
+}
+.firstreg{
+    width :600px;
+    border-radius :3.5vw 0vw 0vw 3.5vw ;
+    background-color: rgb(199, 197, 195);
+    
+}
+.one{
+    color:black;
+    font-family:Roboto ;
+    font-size:20px;
+    padding:20px;
+}
+.two{
+    color:rgb(71, 70, 70);
+    font-family:Roboto ;
+    font-size:15px;
+    padding-left:25px;
+}
+.third,.five,.registration-seventh,.nineth,.eleventh,.thirteen{
+    color:black;
+    font-family:Roboto;
+    font-size:20px;
+    padding-top:30px;
+    padding-left:20px;
+}
+#gs1{
+    display: none;
+}
+.extra{
+color: rgb(0, 0, 0);
+position: relative;
+right: 3vw;
+top: 0.9vh;
+}
+.fourth,.sixth,.eigth,.tenth,.twevelth,.fourteenth{
+    color:rgb(114, 111, 111);
+    padding-left:23px;
+    padding-top:15px;
+    font-family:Roboto;
+}
+.tenth{
+    position:relative;
+}
+.button{
+    color:blueviolet;
+    background-color:rgb(199, 197, 195);
+}
+.eight{
+    font-family:Roboto;
+    font-size:50px;
+    padding-top: 20px;
+    padding-left: 60px;
+}
+.pro1{
+    background-color: rgb(199, 197, 195) ;
+    font-family: Roboto;
+}
+.pro2{
+    background-color: rgb(199, 197, 195);
+    font-family:Roboto;
+}
+.but1{
+    width:300px;
+    height:40px;
+    border-radius:10px;
+    background-color:blueviolet;
+    color:aliceblue;
+    font-size:20px;
+    font-family: Roboto;
+}
+.nine{
+    padding-top:20px;
+    padding-left:100px;
+}
+span{
+    color:blueviolet;
+}
+
+.profile{
+    padding-left :20px;
+    padding-top:15px;
+}
+
+input{
+    width:27vw;
+    height:5vh;
+    background-color: rgb(255, 255, 255);
+    color: rgb(12, 12, 12);
+    border-radius: 1em;
+    padding: 0 0 0 1vh;
+    font-size: 1em;
+}
+.secondreg{
+    width:300px;
+    border-radius :0vw 3.5vw 3.5vw 0vw ;
+    background-image:linear-gradient(to bottom,rgb(102, 3, 160),rgb(201, 180, 240))
+}
+.second2{
+    width :500px;
+}
+.firstreg,.secondreg{
+    padding-bottom:2vw;
+    margin-top: 40px;
+}
+#gs1{
+    color: red;
+    font-weight: 500;
+}
