@@ -6,9 +6,9 @@ import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import client from './gs.js';
 
-const username = "admin";
-const password = "gayathrisridhar";
-const cluster = "cluster0.8eouofm";
+const username = "<mongodb-user>";
+const password = "<mongodb-server-password>";
+const cluster = "<mongodb-cluster-name>";
 
 
 const uri = `mongodb+srv://${username}:${password}@${cluster}.mongodb.net/User?retryWrites=true&w=majority`;
@@ -228,7 +228,7 @@ app.post("/generateotp",(req,res)=>{
             if(docs.length!=0){
 
                 var otp = generateOTP();
-                client.messages.create({body: `OTP :${otp} `,to: `+91${gtp.number}`, from: '+14302491500', })
+                client.messages.create({body: `OTP :${otp} `,to: `+91${gtp.number}`, from: '<your-twilio-number>', })
                 .then(
                     (result)=>{
                         Otp.create({otp:otp,email:gtp.email,mblnum:gtp.number})
